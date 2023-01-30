@@ -17,6 +17,6 @@ I followed clean code and clean architecture principles and guidelines.
 - flutter_screenutil: for responsiveness  
 - cached_network_image: for caching movies images  
 
-## video:
+## Video Record:
 
 https://user-images.githubusercontent.com/42899531/215575735-55ec0aec-dfaf-45c5-87ef-f286cfc6589c.mp4
