@@ -4,6 +4,7 @@ This project is a starting point for a Minapharm Pharmaceuticals Flutter Technic
 I followed clean code and clean architecture principles and guidelines.
 
 ## Packages used:
+
 - flutter_bloc: for state management  
 - dartz: for functional programming  
 - get_it: for dependency injection
@@ -15,3 +16,7 @@ I followed clean code and clean architecture principles and guidelines.
 - fluttertoast  
 - flutter_screenutil: for responsiveness  
 - cached_network_image: for caching movies images  
+
+## video:
+
+https://user-images.githubusercontent.com/42899531/215575735-55ec0aec-dfaf-45c5-87ef-f286cfc6589c.mp4
