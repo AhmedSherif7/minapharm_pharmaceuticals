@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../Auth/presentation/blocs/splash_cubit/splash_cubit.dart';
-import '../../Auth/presentation/screens/login_screen.dart';
-import '../../Auth/presentation/screens/register_screen.dart';
-import '../../Auth/presentation/screens/splash_screen.dart';
+import '../../auth/presentation/blocs/splash_cubit/splash_cubit.dart';
+import '../../auth/presentation/screens/login_screen.dart';
+import '../../auth/presentation/screens/register_screen.dart';
+import '../../auth/presentation/screens/splash_screen.dart';
 import '../../dashboard/presentation/screens/dashboard_screen.dart';
 import '../../movies/presentation/blocs/movie_bloc.dart';
 import '../../movies/presentation/screens/movies_screen.dart';

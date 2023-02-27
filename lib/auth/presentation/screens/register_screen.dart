@@ -84,7 +84,7 @@ class _RegisterScreenState extends State<RegisterScreen> with ValidatorMixin {
                   children: [
                     Text(
                       'Register',
-                      style: Theme.of(context).textTheme.headline6?.copyWith(
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
                             color: ColorManager.primary,
                           ),
                     ),

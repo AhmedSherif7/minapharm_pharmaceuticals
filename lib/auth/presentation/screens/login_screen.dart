@@ -79,7 +79,7 @@ class _LoginScreenState extends State<LoginScreen> with ValidatorMixin {
                 children: [
                   Text(
                     'Login',
-                    style: Theme.of(context).textTheme.headline6?.copyWith(
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
                           color: ColorManager.primary,
                         ),
                   ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../Auth/presentation/blocs/auth_bloc/auth_bloc.dart';
+import '../../../auth/presentation/blocs/auth_bloc/auth_bloc.dart';
 import '../../../core/enums/enums.dart';
 import '../../../core/managers/color_manager.dart';
 import '../../../core/managers/route_manager.dart';
@@ -18,7 +18,7 @@ class DashboardScreen extends StatelessWidget {
           Navigator.pushNamedAndRemoveUntil(
             context,
             Routes.login,
-                (route) => false,
+            (route) => false,
           );
         }
       },
@@ -41,7 +41,7 @@ class DashboardScreen extends StatelessWidget {
             children: [
               Text(
                 'Hello ${context.read<AuthBloc>().state.user?.username}',
-                style: Theme.of(context).textTheme.headline6,
+                style: Theme.of(context).textTheme.titleLarge,
               ),
               SizedBox(
                 height: context.screenHeight() * 0.02,

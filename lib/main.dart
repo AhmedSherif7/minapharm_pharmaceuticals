@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'Auth/presentation/blocs/auth_bloc/auth_bloc.dart';
+import 'auth/presentation/blocs/auth_bloc/auth_bloc.dart';
 import 'core/managers/route_manager.dart';
 import 'core/managers/theme_manager.dart';
 import 'core/services/services.dart';
@@ -10,16 +10,11 @@ import 'core/utils/bloc_observer.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   await initServices();
+  Bloc.observer = MyBlocObserver();
 
-  BlocOverrides.runZoned(
-    blocObserver: MyBlocObserver(),
-        () {
-      return runApp(
-        const MyApp(),
-      );
-    },
+  runApp(
+    const MyApp(),
   );
 }
 

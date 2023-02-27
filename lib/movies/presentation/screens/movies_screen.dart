@@ -31,7 +31,7 @@ class MoviesScreen extends StatelessWidget {
                 children: [
                   Text(
                     state.getMoviesError,
-                    style: Theme.of(context).textTheme.headline6?.copyWith(
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
                           color: ColorManager.secondary,
                           fontWeight: FontWeight.w600,
                         ),
@@ -56,7 +56,7 @@ class MoviesScreen extends StatelessWidget {
             replacement: Center(
               child: Text(
                 'No Movies',
-                style: Theme.of(context).textTheme.headline6?.copyWith(
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
                       color: ColorManager.primary,
                       fontWeight: FontWeight.w600,
                     ),
@@ -113,7 +113,7 @@ class MoviesScreen extends StatelessWidget {
                               overflow: TextOverflow.ellipsis,
                               style: Theme.of(context)
                                   .textTheme
-                                  .subtitle1
+                                  .titleMedium
                                   ?.copyWith(
                                     color: ColorManager.primary,
                                     fontWeight: FontWeight.w600,

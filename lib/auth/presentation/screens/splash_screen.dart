@@ -48,7 +48,7 @@ class SplashScreen extends StatelessWidget {
         body: Center(
           child: Text(
             'Loading...',
-            style: Theme.of(context).textTheme.headline6?.copyWith(
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   color: ColorManager.primary,
                 ),
           ),
